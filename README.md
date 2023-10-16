@@ -28,4 +28,4 @@
   #### Локальный запуск:
     npm run start
   #### Тесты
-    npm run build
+    npm run test
