@@ -1,0 +1,23 @@
+:root {
+  --primary-color: #03a9f4;
+  --light-primary-color: #b3e5fc;
+  --dark-primary-color: #0288d1;
+  --accent-color: #00bcd4;
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --divided-color: #bdbdbd;
+  --text-icon: #ffffff;
+  --font-size-h1: 30px;
+  --font-size-link: 18px;
+  --font-size-main: 16px;
+  --font-size-title: 14px;
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --font-size-h1: 22px;
+    --font-size-link: 16px;
+    --font-size-main: 14px;
+    --font-size-title: 12px;
+  }
+}

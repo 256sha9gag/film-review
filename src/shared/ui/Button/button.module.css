@@ -1,0 +1,20 @@
+.button {
+  color: var(--text-icon);
+  display: flex;
+  padding: 10px;
+  font-size: var(--font-size-main);
+  font-weight: 300;
+  flex-basis: 60px;
+  flex-shrink: 1;
+  box-sizing: border-box;
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  border: 2px solid var(--accent-color);
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--dark-primary-color);
+  border: 2px solid var(--dark-primary-color);
+}

@@ -1,0 +1,92 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.wrapperInfo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.image {
+  display: flex;
+  color: var(--text-icon);
+  font-size: var(--font-size-h1);
+  justify-content: center;
+  align-items: center;
+  flex-basis: 300px;
+  height: 400px;
+  background-color: var(--divided-color);
+}
+
+.tip {
+  display: flex;
+  color: var(--text-icon);
+  font-size: var(--font-size-main);
+  font-weight: 300;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 3 1 500px;
+}
+
+.wrapperButton {
+  display: flex;
+  padding-top: 20px;
+}
+
+.title {
+  color: var(--secondary-text);
+  font-size: var(--font-size-h1);
+  font-weight: 500;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.mainText {
+  color: var(--secondary-text);
+  font-size: var(--font-size-main);
+  padding-bottom: 10px;
+  margin: 0;
+  font-weight: 300;
+}
+
+span.boldText {
+  font-size: var(--font-size-link);
+  margin: 0;
+  font-weight: 500;
+}
+
+.danger {
+  padding-top: 10px;
+  color: var(--accent-color);
+  font-size: var(--font-size-main);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapperInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .content {
+    flex-basis: auto;
+  }
+
+  .image {
+    order: 2;
+  }
+}

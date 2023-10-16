@@ -1,0 +1,5 @@
+.tip {
+  color: var(--secondary-text);
+  font-weight: 300;
+  font-size: var(--font-size-main);
+}

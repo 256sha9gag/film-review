@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.title {
+  color: var(--text-icon);
+  font-size: var(--font-size-h1);
+  font-weight: 500;
+  margin: 0;
+}

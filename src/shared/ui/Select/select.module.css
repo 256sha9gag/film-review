@@ -1,0 +1,12 @@
+.select {
+  display: flex;
+  color: var(--secondary-text);
+  padding: 5px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid var(--divided-color);
+}
+
+.select:hover .select:active {
+  border: 2px solid var(--dark-primary-color);
+}

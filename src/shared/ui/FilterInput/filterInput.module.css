@@ -1,0 +1,13 @@
+.filterInput {
+  display: flex;
+  color: var(--secondary-text);
+  padding: 5px;
+  height: 50px;
+  border-radius: 10px;
+  border: 2px solid var(--divided-color);
+  box-sizing: border-box;
+}
+
+.filterInput:hover .filterInput:active {
+  border: 2px solid var(--dark-primary-color);
+}

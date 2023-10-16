@@ -1,0 +1,14 @@
+.link {
+  color: var(--text-icon);
+  font-size: var(--font-size-link);
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--accent-color);
+}
+
+.active {
+  color: var(--divided-color);
+}

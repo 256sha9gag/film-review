@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+}
+
+.input {
+  color: var(--primary-text);
+  display: flex;
+  padding: 10px;
+  font-size: var(--font-size-main);
+  font-weight: 300;
+  flex-basis: 600px;
+  flex-shrink: 1;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid var(--divided-color);
+  outline: none;
+}
+
+.input:hover {
+  border: 2px solid var(--dark-primary-color);
+}
